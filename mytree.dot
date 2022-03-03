@@ -1,10 +1,10 @@
 digraph Tree {
 node [shape=box, style="filled", color="black"] ;
 graph [ranksep=equally, splines=polyline] ;
-0 [label="node #0\norigin <= 1.5\ngini = 0.381\nsamples = 262\nvalue = [195, 67]", fillcolor="#eeac7d"] ;
-1 [label="node #1\ngini = 0.475\nsamples = 170\nvalue = [104, 66]", fillcolor="#f6d1b7"] ;
+0 [label="node #0\norigin <= 1.5\ngini = 0.39\nsamples = 294\nvalue = [216, 78]", fillcolor="#eeae80"] ;
+1 [label="node #1\ngini = 0.488\nsamples = 178\nvalue = [103, 75]", fillcolor="#f8ddc9"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="node #2\ngini = 0.022\nsamples = 92\nvalue = [91, 1]", fillcolor="#e5823b"] ;
+2 [label="node #2\ngini = 0.05\nsamples = 116\nvalue = [113, 3]", fillcolor="#e6843e"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 {rank=same ; 0} ;
 {rank=same ; 1; 2} ;
